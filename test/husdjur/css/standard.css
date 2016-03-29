@@ -1,0 +1,27 @@
+body{
+	background-color: hotpink;
+	}
+header{
+	background-color: blue;
+}
+article{
+	background-color: purple;
+}
+h1{
+	color: red;
+	background-color: black;
+}
+	
+h2{
+	background-color: white;
+}
+p{
+	background-color: green;
+}
+a{
+	background-color: yellow;
+}
+img {
+	max-height: 150px;
+	max-width: 150px;
+}
