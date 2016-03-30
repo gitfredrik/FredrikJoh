@@ -16,3 +16,10 @@ img {
 a {
 	background-color: gold
 }
+.guld {
+	color: gold
+}
+table, th, td {
+	width: 200px;
+	border: 2px solid black;
+}
