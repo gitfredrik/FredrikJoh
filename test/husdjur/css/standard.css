@@ -21,7 +21,7 @@ p{
 a{
 	background-color: yellow;
 }
-img {
-	max-height: 150px;
-	max-width: 150px;
+img{
+	width: 600px;
+	height:600px;
 }
