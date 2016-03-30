@@ -1,0 +1,18 @@
+body {
+	background-color: darkgrey
+}
+h1 {
+	background-color: blue;
+	color:white;
+}
+h2 {
+	background-color: white;
+	color: green;
+}
+img {
+	width: 500px;
+	height: 500px;
+}
+a {
+	background-color: gold
+}
