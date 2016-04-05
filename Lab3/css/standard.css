@@ -1,0 +1,19 @@
+body {
+	background-color: #5cad00;
+}
+fieldset {
+	width: 200px; height: 360px;
+	float: left;
+	color: #142e25;
+	border-color: #142e25;
+}
+img {
+	width: 240px; height: 150px;
+}
+footer {
+	clear: both;
+}
+#next {
+	clear: both;
+	float: right;
+}
