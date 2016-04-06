@@ -1,0 +1,13 @@
+table {
+	border: 2px solid #142e25;
+	width: 600px;
+}
+img {
+	width: 40px; height: 25px;
+}
+#rad1 {
+	background-color: green;
+}
+fieldset {
+	width: 600px;
+}
