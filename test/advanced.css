@@ -1,0 +1,9 @@
+body {
+	background-color: hotpink;
+	background-image: url(images/greenmugg.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-size: 600px;
+	font-family: georgia, 'times new roman', serif;
+}
