@@ -1,0 +1,31 @@
+body {
+	color: #666;
+	background-color: #fefefe;
+	background-image: url(../images/flour.jpg);
+	background-repeat: no-repeat;
+	background-size: 1500px;
+	font-family: georgia, serif;
+	line-height: 1.4em;
+	margin: 0;
+}
+#wrapper {
+	width: 900px;
+	margin: 20px auto;
+	background-color: brown;
+}
+header {
+	height: 150px;
+	background-image: url(../images/logo.png); 
+	background-repeat: no-repeat;
+	border-bottom-left-radius: 20px 40px;
+}
+h1 {
+	text-indent: -9999px;
+	width: 900px;
+	height: 150px;
+	margin: 0;
+}
+article {
+	clear: both;
+	width: 100%
+}
