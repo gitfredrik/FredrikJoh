@@ -1,19 +1,27 @@
+.wrapper {
+	padding-top: 10px;
+	width: 90%;
+}
 header img {
 	width: 100%;
 
 }
+#headermitt {
+	padding-top: 25px;
+}
 nav ul li {
 	display: inline;
-	margin-right: 25px;
-
+	margin-right: 20px;
 }
 #navfieldset {
 	background-color: #faddca;
 	border-radius: 15px;
-	padding: 8px;
+	padding: 10px;
 	text-align: center;
 }
-
+#headerfield {
+	padding-top: 43px;
+}
 
 footer {
 	border: 2px solid #faddca;
@@ -22,7 +30,11 @@ footer {
 }
 #copyright {
 	text-align: center;
+	padding-top: 70px;
 }
 footer img {
 	width: 100%;
+}
+#karta {
+	border-radius: 15px;
 }
