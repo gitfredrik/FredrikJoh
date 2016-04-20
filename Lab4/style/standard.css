@@ -27,6 +27,7 @@ nav ul li {
 }
 footer {
 	border: 2px solid #faddca;
+	margin-top: 15px;
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
@@ -58,5 +59,17 @@ footer img {
 	text-align: center;
 }
 table td {
-	padding-right: 10px;
+	padding-right: 40px;
+}
+.antalmat {
+	width: 30px;
+}
+#rate {
+	width: 100%;
+	margin-left: 75px;
+	/*padding-bottom: 20px*/;
+}
+aside {
+	border:1px solid #f99209;
+	margin-top: 10px;
 }

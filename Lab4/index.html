@@ -40,7 +40,7 @@
 		<h2 class="col-sm-12 col-sm-push-2">Meny</h2>
 	</section>
 	<div class="row">
-	<form>
+	<form action="pages/checkout.html">
 				<div class="col-xs-2 col-xs-pull-12 col-sm-2 col-sm-push-1">
 					<img src="images/vagnpil.png" alt="pil" id="vagnpil">
 				</div>
@@ -50,9 +50,10 @@
 				<fieldset class="col-xs-4 col-sm-2 col-sm-push-1 vagnfieldset">
 					<p>Kampenhof <input name="vagn" type="radio" value="Kampen" required></p>
 				</fieldset>
+				<div class="col-xs-2 col-xs-pull-12 col-sm-2 col-sm-push-2"><img src="images/rate.png" alt="rating" id="rate"></div>
 	</div>
 	<div class="row">
-	<section class="col-sm-6">
+	<section class="col-sm-7 col-sm-push-2 col-xs-12">
 		<table>
 			<tr>
 				<td><h4>Falafelrulle</h4></td>
@@ -60,17 +61,17 @@
 			<tr>
 				<td>tomat, persilja, isbergssallad, peperoni</td>
 				<td>30 kr</td>
-				<td><input name="Falafelrulle" type="number" value="0"></td>
-				<td><button>Ändra</button></td>
+				<td><input name="mat1" type="number" value="0" class="antalmat" required min="1"></td>
+				<td><button>Ändra</button><input type="submit" name="mat1" value="Lägg till"></td>
 			</tr>
 			<tr>
-				<td><h4>Falafel-tallrik 12</h4></td>
+				<td><h4>Falafel-tallrik 12</h4><td>
 			</tr>
 			<tr>
 				<td>tomat, persilja, isbergssallad</td>
 				<td>35 kr</td>
-				<td><input name="Falafel-tallrik" type="number" value="0"></td>
-				<td><button>Ändra</button></td>
+				<td><input name="mat2" type="number" value="0" class="antalmat" required></td>
+				<td><button>Ändra</button><input type="submit" name="mat2" value="Lägg till"></td>
 			</tr>
 			<tr>
 				<td><h4>Döner kebab</h4></td>
@@ -78,8 +79,8 @@
 			<tr>
 				<td>bröd, lök, tomat, isbergssallad, fetaost</td>
 				<td>35 kr</td>
-				<td><input name="donerkebab" type="number" value="0"></td>
-				<td><button>Ändra</button></td>
+				<td><input name="mat3" type="number" value="0" class="antalmat" required></td>
+				<td><button>Ändra</button><input type="submit" name="mat3" value="Lägg till"></td>
 			</tr>
 			<tr>
 				<td><h4>Kebabrulle</h4></td>
@@ -87,14 +88,15 @@
 			<tr>
 				<td>lök, tomat, isbergssallad, peperoni</td>
 				<td>50 kr</td>
-				<td><input name="kebabrulle" type="number" value="0"></td>
-				<td><button>Ändra</button></td>
+				<td><input name="mat4" type="number" value="0" class="antalmat" required></td>
+				<td><button>Ändra</button><input type="submit" name="mat4" value="Lägg till"></td>
 			</tr>
 		</table>
 	</section>
-	<aside class="col-sm-2">
-		</form>
+	<aside class="col-xs-12 col-sm-2 col-sm-push-2">
+	<p>Här är en aside där man ser vad man lagt i "varukorgen". det ska gå att ta bort mat om man inte längre vill ha det man tryckt i. Här är en aside där man ser vad man lagt i "varukorgen". det ska gå att ta bort mat om man inte längre vill ha det man tryckt i. <input type="submit" name="next" value="Nästa"></p>
 	</aside>
+	</form>
 	</div>
 	<footer class="row">
 		<div class="col-md-3">
