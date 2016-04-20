@@ -44,7 +44,7 @@ footer img {
 #karta {
 	border-radius: 15px;
 }
-/*-------------------------*/
+/*-----ovan är styling för header och footer som gäller för alla sidor. nedan stylas enstaka taggar-----*/
 #vagnpil {
 	width: 120px;
 }
@@ -76,6 +76,9 @@ aside {
 figure img {
 	width: 100%;
 	border-radius: 15px;
+}
+figcaption:first-line {
+	font-weight:bold;
 }
 .kontakt {
 	display: inline;
