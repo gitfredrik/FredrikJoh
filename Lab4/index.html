@@ -11,8 +11,9 @@
 	<link rel="stylesheet" type="text/css" href="style/standard.css">
 </head>
 <body>
-<div class="container wrapper">
+<div class="container-fluid wrapper">
 	<header class="row">
+	<h1 id="rubrik">Orientköket</h1>
 		<div class="col-xs-4 col-md-2">
 			<img src="images/logo.png"
 			alt="logga" title="logo" class="img-responsive">
@@ -35,6 +36,66 @@
 			</fieldset>
 		</div>
 	</header>
+	<section class="row">
+		<h2 class="col-sm-12 col-sm-push-2">Meny</h2>
+	</section>
+	<div class="row">
+	<form>
+				<div class="col-xs-2 col-xs-pull-12 col-sm-2 col-sm-push-1">
+					<img src="images/vagnpil.png" alt="pil" id="vagnpil">
+				</div>
+				<fieldset class="col-xs-4 col-sm-2 col-sm-push-1 vagnfieldset">
+					<p>Orienthallen <input name="vagn" type="radio" value="Orienth" required></p>
+				</fieldset>
+				<fieldset class="col-xs-4 col-sm-2 col-sm-push-1 vagnfieldset">
+					<p>Kampenhof <input name="vagn" type="radio" value="Kampen" required></p>
+				</fieldset>
+	</div>
+	<div class="row">
+	<section class="col-sm-6">
+		<table>
+			<tr>
+				<td><h4>Falafelrulle</h4></td>
+			</tr>
+			<tr>
+				<td>tomat, persilja, isbergssallad, peperoni</td>
+				<td>30 kr</td>
+				<td><input name="Falafelrulle" type="number" value="0"></td>
+				<td><button>Ändra</button></td>
+			</tr>
+			<tr>
+				<td><h4>Falafel-tallrik 12</h4></td>
+			</tr>
+			<tr>
+				<td>tomat, persilja, isbergssallad</td>
+				<td>35 kr</td>
+				<td><input name="Falafel-tallrik" type="number" value="0"></td>
+				<td><button>Ändra</button></td>
+			</tr>
+			<tr>
+				<td><h4>Döner kebab</h4></td>
+			</tr>
+			<tr>
+				<td>bröd, lök, tomat, isbergssallad, fetaost</td>
+				<td>35 kr</td>
+				<td><input name="donerkebab" type="number" value="0"></td>
+				<td><button>Ändra</button></td>
+			</tr>
+			<tr>
+				<td><h4>Kebabrulle</h4></td>
+			</tr>
+			<tr>
+				<td>lök, tomat, isbergssallad, peperoni</td>
+				<td>50 kr</td>
+				<td><input name="kebabrulle" type="number" value="0"></td>
+				<td><button>Ändra</button></td>
+			</tr>
+		</table>
+	</section>
+	<aside class="col-sm-2">
+		</form>
+	</aside>
+	</div>
 	<footer class="row">
 		<div class="col-md-3">
 			<p>

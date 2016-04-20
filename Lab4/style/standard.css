@@ -1,6 +1,9 @@
 .wrapper {
-	padding-top: 10px;
 	width: 90%;
+}
+#rubrik {
+	font-size: 0.1em;
+	text-indent: -9999px;
 }
 header img {
 	width: 100%;
@@ -22,7 +25,6 @@ nav ul li {
 #headerfield {
 	padding-top: 43px;
 }
-
 footer {
 	border: 2px solid #faddca;
 	padding-top: 15px;
@@ -40,4 +42,21 @@ footer img {
 }
 #karta {
 	border-radius: 15px;
+}
+/*-------------------------*/
+#vagnpil {
+	width: 120px;
+}
+.vagnfieldset {
+	display: inline;
+	border: 1px solid #f99209;
+	border-radius: 15px;
+	margin-right: 10px;
+	padding-top: 8px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+table td {
+	padding-right: 10px;
 }
