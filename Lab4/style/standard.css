@@ -1,6 +1,15 @@
 .wrapper {
 	width: 90%;
 }
+body {
+	font-family: georgia "Times New Roman" serif;
+}
+h2 {
+    text-shadow: 2px 2px yellow;
+}
+h2:hover {
+	color: hotpink;
+}
 #rubrik {
 	font-size: 0.1em;
 	text-indent: -9999px;
@@ -96,4 +105,18 @@ figcaption:first-line {
 }
 #skickabes {
 	margin-top: 20px;
+}
+#tid {
+	font-size: xx-large;
+}
+#flyttaner {
+	margin-top: 20px;
+	border:1px solid #f99209;
+	text-align: center;
+}
+.godis {
+	border:1px solid #f99209;
+}
+video {
+	width: 100%
 }
