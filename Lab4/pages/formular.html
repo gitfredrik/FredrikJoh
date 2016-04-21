@@ -46,20 +46,33 @@
 				</tr>
 				<tr>
 					<td>Skulle du rekomendera Orientköket?</td>
-					<td>Ja <input name="rek" type="radio" value="ja" required> Nej <input name="rek" type="radio" value="nej"></td>
+					<td>
+					<label for="ja">Ja</label>
+					<input name="rek" type="radio" value="ja" required id="ja">
+					<label for="nej">Nej</label>
+					<input name="rek" type="radio" value="nej" id="nej">
+					</td>
 				</tr>
 				<tr>
 					<td>Vilket av följande passar in på Orientköket?</td>
 					<td>
-						<div>Bra service <input name="vad" type="checkbox" value="1"></div>
-						<div>God mat <input name="vad" type="checkbox" value="2"></div>
-						<div>Trevlig personal <input name="vad" type="checkbox" value="3"></div>
-						<div>Snygg food truck<input name="vad" type="checkbox" value="4"></div>
+						<div>
+						<label for="1">Bra service</label><input name="vad" type="checkbox" value="1" id="1">
+						</div>
+						<div>
+						<label for="2">God mat</label><input name="vad" type="checkbox" value="2" id="2">
+						</div>
+						<div>
+						<label for="3">Trevlig personal</label><input name="vad" type="checkbox" value="3" id="3">
+						</div>
+						<div>
+						<label for="4">Snygg food truck</label><input name="vad" type="checkbox" value="4" id="4">
+						</div>
 					</td>
 				</tr>
 				<tr>
 					<td>Finns det något du tycker att vi kan bli bättre på?</td>
-					<td><input type="textbox"></td>
+					<td><input type="text"></td>
 				</tr>
 			</table>
 			<div class="col-xs-2 col-xs-push-4 col-sm-1 col-sm-push-4" id="skicka">
