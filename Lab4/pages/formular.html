@@ -23,22 +23,48 @@
 			<img src="../images/headermitt.png"
 			alt="orientköket" title="orientköket" class="center-block img-responsive" id="headermitt">
 		</div>
-		<div class="col-md-1"></div>
+		<div class="col-md-1"><!--På denna sidan är navigationen borttagen p.g.a att man inte ska kunna lämna enkäten utan att fylla i svaren.--></div>
 	</header>
 <div class="row">
-	<section class="col-sm-5">
-		<form>
+	<section class="col-sm-6 col-sm-push-3" id="formular">
+		<form action="../index.html">
 		<h2>Kundenkät</h2>
-			<table>
+			<table id="enkat">
 				<tr>
 					<td>Hur nöjd är du med ditt arbete?</td>
-					<td>dropdown</td>
+					<td>
+						<select name="nojd" required>
+							<option label="val"></option>
+							<option value="5">Mycket nöjd</option>
+							<option value="4">Mer än nöjd</option>
+							<option value="3">Nöjd</option>
+							<option value="2">Inte speciellt nöjd</option>
+							<option value="1">Inte alls nöjd</option>
+							<option value="dono">Vet inte</option>
+						</select>
+					</td>
 				</tr>
 				<tr>
-					<td>skulle du rekomendera Orientköket?</td>
-					<td><input type="radio"></td>
+					<td>Skulle du rekomendera Orientköket?</td>
+					<td>Ja <input name="rek" type="radio" value="ja" required> Nej <input name="rek" type="radio" value="nej"></td>
+				</tr>
+				<tr>
+					<td>Vilket av följande passar in på Orientköket?</td>
+					<td>
+						<div>Bra service <input name="vad" type="checkbox" value="1"></div>
+						<div>God mat <input name="vad" type="checkbox" value="2"></div>
+						<div>Trevlig personal <input name="vad" type="checkbox" value="3"></div>
+						<div>Snygg food truck<input name="vad" type="checkbox" value="4"></div>
+					</td>
+				</tr>
+				<tr>
+					<td>Finns det något du tycker att vi kan bli bättre på?</td>
+					<td><input type="textbox"></td>
 				</tr>
 			</table>
+			<div class="col-xs-2 col-xs-push-4 col-sm-1 col-sm-push-4" id="skicka">
+				<input type="submit" value="Skicka svar">
+			</div>
 		</form>
 	</section>
 </div>

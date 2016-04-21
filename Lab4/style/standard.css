@@ -84,3 +84,13 @@ figcaption:first-line {
 	display: inline;
 	width: 100px;
 }
+#formular table {
+	border-collapse: collapse;
+}
+#formular table td {
+	border:1px solid #f99209;
+	padding-top: 2px;
+}
+#formular table tr td div input {
+	float: right;
+}
